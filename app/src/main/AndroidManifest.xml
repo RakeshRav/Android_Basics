@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidBasics">
         <activity
+            android:name=".navigation_components.ui.NavGraphActivity"
+            android:exported="true" />
+        <activity
             android:name=".architecture_components.ui.NotesActivity"
             android:exported="true" />
         <activity
