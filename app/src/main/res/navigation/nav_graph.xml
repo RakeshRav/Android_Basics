@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.android_basics.navigation_components.ui.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_loginFragment"
             app:destination="@id/loginFragment"
@@ -21,8 +21,8 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.android_basics.navigation_components.ui.LoginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_welcomeFragment"
             app:destination="@id/welcomeFragment"
@@ -31,11 +31,13 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
     </fragment>
+<!--    for setting names of the screen dynamic use the example of username-->
     <fragment
+
         android:id="@+id/welcomeFragment"
         android:name="com.example.android_basics.navigation_components.ui.WelcomeFragment"
-        android:label="fragment_welcom"
-        tools:layout="@layout/fragment_welcom" >
+        android:label="{username}"
+        tools:layout="@layout/fragment_welcom">
         <argument
             android:name="username"
             app:argType="string" />

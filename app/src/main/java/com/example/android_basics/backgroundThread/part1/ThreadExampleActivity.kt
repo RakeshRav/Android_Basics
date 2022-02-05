@@ -3,6 +3,7 @@ package com.example.android_basics.backgroundThread.part1
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.os.Message
 import android.util.Log
 import android.view.View
 import android.widget.Button
@@ -24,6 +25,9 @@ class ThreadExampleActivity : AppCompatActivity() {
         setContentView(R.layout.activity_thread_example)
 
         button = findViewById(R.id.start)
+        mainHandler.sendMessage(Message.obtain().apply {
+            this.what = 1
+        })
     }
 
     fun start(view: View) {

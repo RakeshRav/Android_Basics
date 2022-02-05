@@ -1,19 +1,23 @@
 package com.example.android_basics
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.android_basics.architecture_components.ui.NotesActivity
-import com.example.android_basics.backgroundThread.part1.ThreadExampleActivity
-import com.example.android_basics.backgroundThread.part2.LooperAndroidActivit
-import com.example.android_basics.backgroundThread.part3.HandlerThreadActivity
-import com.example.android_basics.navigation_components.ui.NavGraphActivity
+import android.view.View
+import androidx.appcompat.app.AppCompatActivity
+import com.example.android_basics.jetpack_compose.JetpackListActivity
+import com.example.android_basics.jetpack_compose.RecyclerViewActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+    }
 
-        startActivity(Intent(this, NavGraphActivity::class.java))
+    fun openJetpackActivity(view: View) {
+        startActivity(Intent(this, JetpackListActivity::class.java))
+    }
+
+    fun openRecyclerViewActivity(view: View) {
+        startActivity(Intent(this, RecyclerViewActivity::class.java))
     }
 }

@@ -3,16 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/compose-model-1640243685577.xml" value="0.26309121621621623" />
+        <entry key="../../../../../layout/compose-model-1640585524733.xml" value="0.9634146341463414" />
+        <entry key="../../../../../layout/compose-model-1640586485540.xml" value="1.0" />
+        <entry key="../../../../../layout/compose-model-1640588925378.xml" value="0.25" />
+        <entry key="../../../../../layout/compose-model-1640605338903.xml" value="0.2622466216216216" />
+        <entry key="../../../../../layout/compose-model-1640606481865.xml" value="0.2622466216216216" />
         <entry key="../../../../../layout/custom_preview.xml" value="0.3082051282051282" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.30923076923076925" />
         <entry key="app/src/main/res/layout/activity_handler_thread.xml" value="0.29791666666666666" />
         <entry key="app/src/main/res/layout/activity_looper_android.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25555555555555554" />
         <entry key="app/src/main/res/layout/activity_nav_graph.xml" value="0.2838541666666667" />
         <entry key="app/src/main/res/layout/activity_notes.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/activity_permission.xml" value="0.159375" />
+        <entry key="app/src/main/res/layout/activity_recycler_view.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_thread_example.xml" value="0.29333333333333333" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.29791666666666666" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.2833333333333333" />
         <entry key="app/src/main/res/layout/fragment_welcom.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/item_rv.xml" value="0.29791666666666666" />
         <entry key="app/src/main/res/layout/note_item.xml" value="0.335" />
       </map>
     </option>
